@@ -51,8 +51,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@evilmartians/lefthook": "^1.2.2",
-    "@commitlint/config-conventional": "^17.0.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
@@ -123,10 +121,10 @@
         "error",
         {
           "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
+          "singleQuote": false,
+          "tabWidth": 4,
           "trailingComma": "es5",
-          "useTabs": false
+          "useTabs": true
         }
       ]
     }
@@ -137,10 +135,10 @@
   ],
   "prettier": {
     "quoteProps": "consistent",
-    "singleQuote": true,
-    "tabWidth": 2,
+    "singleQuote": false,
+    "tabWidth": 4,
     "trailingComma": "es5",
-    "useTabs": false
+    "useTabs": true
   },
   "react-native-builder-bob": {
     "source": "src",
